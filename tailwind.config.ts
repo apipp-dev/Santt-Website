@@ -31,9 +31,8 @@ const config: Config = {
     },
   },
   plugins: [
-    // Uncomment/install these if you want Tailwind's forms/typography utilities:
-    // require('@tailwindcss/forms'),
-    // require('@tailwindcss/typography'),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
   ],
 };
 
