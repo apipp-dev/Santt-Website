@@ -47,7 +47,7 @@ export default function App() {
       name: 'Nadia Az-Zahra',
       role: 'Direktur Pemasaran',
       company: 'Resort Pulau Weh Sabang',
-      feedback: 'Penerbangan drone FPV di atas laut yang luar bisa ajaib! Kru mereka sangat kreatif, mencocokkan cahaya fajar secara presisi, lalu mengirimkan file rekap petualangan yang luar biasa indah.',
+      feedback: 'Penerbangan drone FPV di atas laut yang luar biasa ajaib! Kru mereka sangat kreatif, mencocokkan cahaya fajar secara presisi, lalu mengirimkan file rekap petualangan yang luar biasa indah.',
       image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=300&auto=format&fit=crop'
     }
   ];
@@ -105,7 +105,7 @@ export default function App() {
                       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {t.whyChooseUs.items.map((item, i) => (
                           <div key={i} className="p-6 rounded-lg bg-neutral-950 border border-white/5 hover:border-brand-orange/30 transition-all duration-300">
-                            <span className="font-mono text-xs text-brand-orange font-bold font-mono">0{i+1}//</span>
+                            <span className="font-mono text-xs text-brand-orange font-bold">0{i+1}//</span>
                             <h3 className="text-sm font-display font-black text-white uppercase mt-4 mb-2 tracking-wider">
                               {item.title}
                             </h3>
@@ -133,7 +133,7 @@ export default function App() {
                         <button
                           id="home-explore-services-btn"
                           onClick={() => setCurrentPage('services')}
-                          className="px-5 py-2.5 bg-neutral-950 hover:bg-neutral-900 border border-white/10 hover:border-brand-orange/50 rounded-lg text-xs font-bold uppercase tracking-widest text-[#FFFFFF] cursor-pointer shrink-0"
+                          className="px-5 py-2.5 bg-neutral-950 hover:bg-neutral-900 border border-white/10 hover:border-brand-orange/50 rounded-lg text-xs font-bold uppercase tracking-widest text-white cursor-pointer shrink-0"
                         >
                           {lang === 'en' ? 'Explore All Services' : 'Jelajahi Semua Layanan'}
                         </button>
@@ -176,13 +176,13 @@ export default function App() {
                             // {lang === 'en' ? 'Cinematic Archive' : 'Arsip Sinematik'}
                           </span>
                           <h2 className="font-display font-[900] text-3xl sm:text-4xl uppercase text-white mt-1.5">
-                            {lang === 'en' ? 'Selected Directures Records' : 'Karya Pilihan Direktur'}
+                            {lang === 'en' ? 'Selected Director Records' : 'Karya Pilihan Direktur'}
                           </h2>
                         </div>
                         <button
                           id="home-view-works-btn"
                           onClick={() => setCurrentPage('works')}
-                          className="px-5 py-2.5 bg-neutral-950 hover:bg-neutral-900 border border-white/10 hover:border-brand-orange/50 rounded-lg text-xs font-bold uppercase tracking-widest text-[#FFFFFF] cursor-pointer shrink-0"
+                          className="px-5 py-2.5 bg-neutral-950 hover:bg-neutral-900 border border-white/10 hover:border-brand-orange/50 rounded-lg text-xs font-bold uppercase tracking-widest text-white cursor-pointer shrink-0"
                         >
                           {lang === 'en' ? 'View Full Portfolio' : 'Lihat Portofolio Lengkap'}
                         </button>
@@ -198,7 +198,7 @@ export default function App() {
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                       <div className="text-center max-w-2xl mx-auto mb-16">
                         <span className="text-[10px] font-mono text-brand-orange uppercase tracking-widest block font-bold">
-                          // {lang === 'en' ? 'Prsitine Standards' : 'Standar Kerja'}
+                          // {lang === 'en' ? 'Pristine Standards' : 'Standar Kerja'}
                         </span>
                         <h2 className="font-display font-[900] text-3xl sm:text-4xl uppercase text-white tracking-tight mt-1">
                           {t.process.title}
@@ -210,7 +210,7 @@ export default function App() {
 
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {t.process.steps.map((step, idx) => (
-                          <div   key={idx} className="relative p-7 rounded-lg bg-neutral-950 border border-white/5 flex flex-col justify-between">
+                          <div key={idx} className="relative p-7 rounded-lg bg-neutral-950 border border-white/5 flex flex-col justify-between">
                             <span className="font-display font-black text-4xl text-neutral-800 tracking-tight block border-b border-white/5 pb-3 font-mono">
                               {step.phase}
                             </span>

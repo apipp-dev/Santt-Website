@@ -187,7 +187,7 @@ export const testimonials: Testimonial[] = [
     name: 'Helena Vance',
     role: 'Creative VP',
     company: 'Apex Automotive Group',
-    feedback: 'Santt Production transformed our electric supercar launch into pure cinematic poetry. The play of light, orange flares, and thunderous sound design exceeded any commercial standard we had set. Absolutely breathtaking work!',
+    feedback: 'Santt Production transformed our electric supercar launch into pure cinematic poetry. The play of light, orange flares, and thunderous sound design exceeded any commercial standard. Delivery was on-time and professional.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=300&auto=format&fit=crop'
   },
@@ -196,7 +196,7 @@ export const testimonials: Testimonial[] = [
     name: 'Marcus Kael',
     role: 'Managing Director',
     company: 'Aether Beverage Co.',
-    feedback: 'Their FPV drone operators are magicians. They captured angles of our packaging lines that looked futuristic and majestic. Santt delivers on time and takes creative ownership of every pixel.',
+    feedback: 'Their FPV drone operators are magicians. They captured angles of our packaging lines that looked futuristic and majestic. Santt delivers on time and takes creative ownership of every frame and element.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop'
   },
@@ -205,7 +205,7 @@ export const testimonials: Testimonial[] = [
     name: 'Dorian Hayes',
     role: 'Music Artist',
     company: 'Vapor Wave Syndicate',
-    feedback: 'Usually, video shoots are stressed, but the team at Santt brought complete calm and vision. The coloring matches our synthwave aura completely, and their timing for the drops is flawless.',
+    feedback: 'Usually, video shoots are stressed, but the team at Santt brought complete calm and vision. The coloring matches our synthwave aura completely, and their timing for the drops is flawless and professional.',
     rating: 5,
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop'
   }
@@ -233,18 +233,18 @@ export const equipmentList: EquipmentItem[] = [
 export const faqData = [
   {
     question: 'How long does a cinematic brand shoot typically take from script to debut?',
-    answer: 'A standard project spans 3 to 6 weeks. This includes pre-production (storyboarding, scripts - approx. 1-2 weeks), principal photography (shooting - 1-3 days), and a highly detailed post-production phase (color grading, sound editing, dynamic VFX - approx. 2-3 weeks).'
+    answer: 'A standard project spans 3 to 6 weeks. This includes pre-production (storyboarding, scripts - approx. 1-2 weeks), principal photography (shooting - 1-3 days), and a highly detailed post-production phase (color grading, sound design, revisions - 2-4 weeks). Rush delivery options are available at an additional premium.'
   },
   {
     question: 'Can we hire Santt Production strictly for raw FPV drone pilot capture or elite color grading?',
-    answer: 'Absolutely! While we focus on full-service narrative campaigns, we partner with agencies and other directors to supply high-end FPV flight captures, ARRI Mini B-rolls, or dedicated DaVinci Resolve color suites.'
+    answer: 'Absolutely! While we focus on full-service narrative campaigns, we partner with agencies and other directors to supply high-end FPV flight captures, ARRI Mini B-rolls, or dedicated DaVinci color grading. Contact our producer desk for custom service packages tailored to your needs.'
   },
   {
     question: 'Are there any geographical limitations for production locations?',
-    answer: 'None whatsoever. Santt Production has filmed on icy mountain cliffs, remote desert dunes, and underground water reservoirs. Our crew, gear, and heavy drone certifications are optimized and cleared for international dispatch.'
+    answer: 'None whatsoever. Santt Production has filmed on icy mountain cliffs, remote desert dunes, and underground water reservoirs. Our crew, gear, and heavy drone certifications are optimized for challenging terrain across Aceh, Indonesia, and beyond. Custom logistics planning available.'
   },
   {
     question: 'What is your process for integrating feedback during post-production?',
-    answer: 'We use professional frame-by-frame review portals (Frame.io sync). You receive a secure link where you can click exact timecodes and write notes. This keeps the revision workflow highly transparent, speed-focused, and satisfying.'
+    answer: 'We use professional frame-by-frame review portals (Frame.io sync). You receive a secure link where you can click exact timecodes and write notes. This keeps the revision workflow high-speed and transparent throughout editing, color grading, and final delivery phases.'
   }
 ];
