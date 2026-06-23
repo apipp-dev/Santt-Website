@@ -1,12 +1,20 @@
+"use client";
+import { MessageCircle } from "lucide-react";
+import { motion } from "framer-motion";
+
 export default function FloatingWhatsApp() {
   return (
-    <a
-      href="https://wa.me/"
-      aria-label="WhatsApp"
-      className="fixed right-4 bottom-4 bg-brand-orange text-black rounded-full p-3 shadow-lg z-50"
+    <motion.a
+      href="https://wa.me/YOUR_NUMBER"
+      target="_blank"
+      rel="noopener noreferrer"
+      initial={{ scale: 0, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      transition={{ delay: 1, type: "spring", stiffness: 200 }}
+      className="fixed bottom-6 right-6 z-50 bg-[#25D366] hover:bg-[#1EBE5D] text-white p-4 rounded-full shadow-lg hover:shadow-[#25D366]/50 transition-all duration-300 flex items-center justify-center"
+      aria-label="Contact us on WhatsApp"
     >
-      <span className="sr-only">Open WhatsApp</span>
-      <span className="font-bold">WA</span>
-    </a>
+      <MessageCircle size={28} />
+    </motion.a>
   );
 }
